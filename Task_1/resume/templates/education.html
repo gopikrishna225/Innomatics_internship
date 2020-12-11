@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class='jumbotron'>
+<div id = "academicdetails">
+  <u>
+  <button type="button" class="btn btn-light">Academic Details</button>
+</u>
+<hr>
+<table class="table table-hover table-light">
+  <thead>
+    <tr>
+      <th scope="col">Qualification</th>
+      <th scope="col">College/School</th>
+      <th scope="col">CGPA</th>
+      <th scope="col">Passing Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Btech CSE</th>
+      <td>Vignan University</td>
+      <td>7.1</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <th scope="row">InterMediate</th>
+      <td>Vignan Junior College</td>
+      <td>8.5</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th scope="row">SSC</th>
+      <td>Sri Chaitanya </td>
+      <td>6.7</td>
+      <td>2014</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<hr>
+<div id = "skills">
+
+<u>
+  <button type="button" class="btn btn-light">Technical Skills</button>
+</u>
+<hr>
+<div class="card" style="width: 80rem;">
+<ol class="list-group list-group-flush">
+  <li class="list-group-item list-group-item-action">Python</li>
+  <li class="list-group-item list-group-item-action">HTML</li>
+  <li class="list-group-item list-group-item-action">Python Flask</li>
+</ol>
+</div>
+</div>
+<hr>
+<div id="declaration">
+  <u>
+  <button type="button" class="btn btn-light">Declaration</button>
+    </u>
+    <hr>
+    <p> I hereby declare that above details are true as best of my knowledge.</p>
+    </div>
+</div>
+{% endblock %}
